@@ -1,9 +1,8 @@
 var express = require("express");
 var session = require("express-session");
 const MongoClient = require("mongodb").MongoClient;
-const app = require("../app");
-const dotenv = require("dotenv").config();
-const mongoURL = process.env.MONGOLAB_URL || "mongodb://localhost:27017";
+const mongoURL =
+  "mongodb+srv://lpanavas:Password1@cluster0.b9bcp.mongodb.net/<dbname>?retryWrites=true&w=majority";
 function MyDB() {
   const database = {};
 
