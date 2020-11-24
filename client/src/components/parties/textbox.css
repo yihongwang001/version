@@ -1,0 +1,40 @@
+.textbox {
+  height: 40px;
+}
+body {
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+/* Button {
+  color: #e69595;
+} */
+/* .btn {
+  background-color: #e69595;
+} */
+.navbar {
+  background-color: #f7f6f0;
+  width: 100%;
+}
+.card-body {
+  background-color: #ffffff;
+}
+.card-footer {
+  background-color: #ffffff;
+}
+canvas {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -100;
+}
+.btn {
+  background-color: #74520c;
+}
+.btn-secondary {
+  background-color: #74520c;
+}
+.badge {
+  background-color: #74520c;
+}
