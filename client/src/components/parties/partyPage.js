@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { useHistory } from "react-router-dom";
 import SingleParty from "./singleParty";
+import "./textbox.css";
 
 import "./textbox.css";
 import {
@@ -76,11 +77,7 @@ function Party(props) {
 
                 <CardText>{p.dest}</CardText>
 
-                <Button
-                  color="success"
-                  className="btn btn-dark mr-1"
-                  href={p.web}
-                >
+                <Button className="btn btn-dark mr-1" href={p.web}>
                   Party here !
                 </Button>
                 <Button
@@ -237,13 +234,13 @@ function Party(props) {
               <form className="form-inline my-2 my-lg-0">
                 {" "}
                 <label>
-                  <h5 style={{ color: "black" }}>
-                    <strong>Search here&nbsp; </strong>
-                  </h5>
+                  <h2 style={{ color: "black" }}>Search here&nbsp;</h2>
+
+                  <hr />
 
                   <input
-                    size="25%"
-                    height="100"
+                    size="100%"
+                    height="10"
                     type="text"
                     placeholder="Halloween"
                     value={search}
