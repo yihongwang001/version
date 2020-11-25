@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useHistory } from "react-router-dom";
+import "./textbox.css";
 
 import {
   Card,
@@ -47,7 +48,7 @@ function SingleParty(props) {
               alt="party image"
             />
 
-            <CardBody>
+            <CardBody style={{ height: "19rem" }}>
               <CardTitle>
                 <strong>
                   <p>{p.name}</p>
@@ -158,13 +159,6 @@ function SingleParty(props) {
             <input className="btn btn-dark" type="submit" />
           </form>
           <br />
-          <button
-            type="button"
-            className="btn btn-dark"
-            onClick={() => history.push("/partyPage")}
-          >
-            Go to Home
-          </button>
         </div>
       </div>
     </div>
