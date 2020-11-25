@@ -1,5 +1,5 @@
 import React from "react";
-import loginP from "../images/login.png";
+import loginP from "../images/login.png";import "./textbox.css";
 
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
