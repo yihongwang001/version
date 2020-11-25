@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import { useForm } from "react-hook-form";
 
 import Logo from "../images/partynew.png";
+import "./textbox.css";
 
 function NewVenue(props) {
   const history = useHistory();
@@ -62,8 +63,6 @@ function NewVenue(props) {
                 />
                 <br />
               </label>{" "}
-            </form>{" "}
-            <form>
               <label>
                 Last Name
                 <br />
@@ -76,8 +75,6 @@ function NewVenue(props) {
                 />
                 <br />
               </label>{" "}
-            </form>{" "}
-            <form>
               <label>
                 Place Name
                 <br />
@@ -90,8 +87,6 @@ function NewVenue(props) {
                 />
                 <br />
               </label>{" "}
-            </form>{" "}
-            <form>
               <label>
                 Image URL
                 <br />
@@ -104,8 +99,6 @@ function NewVenue(props) {
                 />
                 <br />
               </label>{" "}
-            </form>{" "}
-            <form>
               <label>
                 Cost Per Person
                 <br />
@@ -118,8 +111,6 @@ function NewVenue(props) {
                 />
                 <br />
               </label>
-            </form>{" "}
-            <form>
               <label>
                 Location
                 <br />
@@ -132,8 +123,6 @@ function NewVenue(props) {
                 />
                 <br />
               </label>
-            </form>{" "}
-            <form>
               <label>
                 Website URL
                 <br />
@@ -145,8 +134,6 @@ function NewVenue(props) {
                 />
                 <br />
               </label>
-            </form>
-            <form>
               <label>
                 Description
                 <br />
